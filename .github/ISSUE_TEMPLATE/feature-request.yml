@@ -6,10 +6,10 @@ labels: ["enhancement"]
 body:
 - type: markdown
   attributes:
-  value: |
-      :tada: Thanks for Suggesting a new feature! :tada:
+    value: |
+        :tada: Thanks for Suggesting a new feature! :tada:
 
-      Use this form to supply details about the feature you'd like to see.
+        Use this form to supply details about the feature you'd like to see.
 
 - id: description
   type: textarea
@@ -17,13 +17,13 @@ body:
   label: Description
   description: "Describe the feature including where in the site it should live and what it should do"
   validations:
-  required: true
+    required: true
 
 - id: owner
   type: input
   attributes:
-  label: Owner 
-  description: Who would own this feature
+    label: Owner 
+    description: Who would own this feature
   placeholder: "@username"
 
 - id: typeoffeature
@@ -36,7 +36,7 @@ body:
       - Enhancement
       - Variation
   validations:
-  required: true
+    required: true
     
 - id: affectedareas
   type: checkboxes
