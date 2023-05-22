@@ -14,8 +14,8 @@ body:
 - id: description
   type: textarea
   attributes:
-  label: Description
-  description: "Describe the feature including where in the site it should live and what it should do"
+    label: Description
+    description: "Describe the feature including where in the site it should live and what it should do"
   validations:
     required: true
 
@@ -24,27 +24,27 @@ body:
   attributes:
     label: Owner 
     description: Who would own this feature
-  placeholder: "@username"
+    placeholder: "@username"
 
 - id: typeoffeature
   type: dropdown
   attributes:
-  label: Type of Feature
-  description: "Is the feature entirely new, an enhancement, or a variation on an existing feature?"
-  options:
-      - New
-      - Enhancement
-      - Variation
+    label: Type of Feature
+    description: "Is the feature entirely new, an enhancement, or a variation on an existing feature?"
+    options:
+        - New
+        - Enhancement
+        - Variation
   validations:
     required: true
     
 - id: affectedareas
   type: checkboxes
   attributes:
-  label: Areas Affected
-  description: "What areas of the application will this affect?"
-  options:
-      - label: Login/Authentication
-      - label: Admin pages
-      - label: Public-facing pages
-      - label: Back-end and database
+    label: Areas Affected
+    description: "What areas of the application will this affect?"
+    options:
+        - label: Login/Authentication
+        - label: Admin pages
+        - label: Public-facing pages
+        - label: Back-end and database
